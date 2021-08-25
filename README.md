@@ -1,2 +1,2 @@
-# SoftUni_courses
-This repo holds my courses at SoftUni: homeworks, exams, projects, exercises
+# Programming basics whit Python at SoftUni
+This repo holds my basic Python course: homeworks, exams, projects, exercises
