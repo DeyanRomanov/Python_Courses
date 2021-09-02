@@ -1,6 +1,9 @@
-n = int(input())
-sums = 0
-for x in range(1, n + 1):
-    nums = int(input())
-    sums += nums
-print(sums)
+number = int(input())
+income_number = int(input())
+counters = 0
+counters += income_number
+while counters < number:
+    income_number = int(input())
+    counters += income_number
+
+print(counters)
