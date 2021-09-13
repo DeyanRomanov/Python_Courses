@@ -5,3 +5,4 @@ Python Basics:
  - [SoftUni](Basic_SoftUni)
  - [HackerRang](HackerRang/Basic)
  - [Certificate](Certificate_basics)
+ - [BasicExams](Basic_exams)
