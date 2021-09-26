@@ -2,9 +2,8 @@
 My courses with Python at SoftUni: homeworks, exams, projects, exercises.
 
 Python Basics:
- - [SoftUni]
- - [Basic](Basic_SoftUni)
- - [Fundamentals](Fundamentals_SoftUni)
+ - [SoftUni Basic](Basic_SoftUni)
+ - [SoftUni Fundamentals](Fundamentals_SoftUni)
  - [HackerRang](HackerRang/Basic)
- - [Certificate](Certificate_basics)
- - [BasicExams](Basic_exams)
+ - [Certificates SoftUni](Certificate_basics)
+ - [SoftUni BasicExams](Basic_exams)
