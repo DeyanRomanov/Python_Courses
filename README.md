@@ -7,4 +7,3 @@ Python Basics:
  - [HackerRang](HackerRang/Basic)
  - [Certificates SoftUni](Certificate_basics)
  - [SoftUni BasicExams](Basic_exams)
-- [ops]
