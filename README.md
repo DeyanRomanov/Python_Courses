@@ -8,3 +8,4 @@ Python Basics:
  - [Certificates SoftUni](Certificate_basics)
  - [SoftUni BasicExams](Basic_exams)
  - [SoftUni FundamentalsExams](Fundamentals_exams)
+ - [SoftUni Advanced](Advanced_Softuni)
