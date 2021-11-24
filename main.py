@@ -1,15 +1,16 @@
-from project_spoopify.album import Album
-from project_spoopify.band import Band
-from project_spoopify.song import Song
+from classes_and_objects_exercise.project_guild import Task
+from classes_and_objects_exercise.project_guild import Section
 
-song = Song("Running in the 90s", 3.45, False)
-print(song.get_info())
-album = Album("Initial D", song)
-second_song = Song("Around the World", 2.34, False)
-print(album.add_song(second_song))
-print(album.details())
-print(album.publish())
-band = Band("Manuel")
-print(band.add_album(album))
-print(band.remove_album("Initial D"))
-print(band.details())
+
+task = Task("Make bed", "27/05/2020")
+print(task.change_name("Go to University"))
+print(task.change_due_date("28.05.2020"))
+task.add_comment("Don't forget laptop")
+print(task.edit_comment(0, "Don't forget laptop and notebook"))
+print(task.details())
+section = Section("Daily tasks")
+print(section.add_task(task))
+second_task = Task("Make bed", "27/05/2020")
+section.add_task(second_task)
+print(section.clean_section())
+print(section.view_section())
