@@ -1,8 +1,0 @@
-from project_zoo.animal import Animal
-
-
-class Tiger(Animal):
-    MONEY_FOR_CARE = 45
-
-    def __init__(self, name, age, gender):
-        super().__init__(name, gender, age, Tiger.MONEY_FOR_CARE)
