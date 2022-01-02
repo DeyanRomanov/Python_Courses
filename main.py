@@ -1,13 +1,24 @@
-from project_photo_album.photo_album import PhotoAlbum
+from project_gum.customer import Customer
+from project_gum.equipment import Equipment
+from project_gum.exercise_plan import ExercisePlan
+from project_gum.gym import Gym
+from project_gum.subscription import Subscription
+from project_gum.trainer import Trainer
 
-album = PhotoAlbum(2)
+customer = Customer("John", "Maple Street", "john.smith@gmail.com")
+equipment = Equipment("Treadmill")
+trainer = Trainer("Peter")
+subscription = Subscription("14.05.2020", 1, 1, 1)
+plan = ExercisePlan(1, 1, 20)
 
-print(album.add_photo("baby"))
-print(album.add_photo("first grade"))
-print(album.add_photo("eight grade"))
-print(album.add_photo("party with friends"))
-print(album.photos)
-print(album.add_photo("prom"))
-print(album.add_photo("wedding"))
+gym = Gym()
 
-print(album.display())
+gym.add_customer(customer)
+gym.add_equipment(equipment)
+gym.add_trainer(trainer)
+gym.add_plan(plan)
+gym.add_subscription(subscription)
+
+print(Customer.get_next_id())
+
+print(gym.subscription_info(1))
