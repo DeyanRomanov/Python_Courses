@@ -10,5 +10,6 @@ Python Basics:
  - [SoftUni AdvandceExams](Advanced_exams)
  - [SoftUni OOP](OOP_Softuni)
  - [Certificates SoftUni](Certificate_basics)
- - [HackerRang](HackerRang/Basic)
- - [HackerRang](HackerRang/Medium)
+ - [HackerRang]
+    [Basic]- (HackerRang/Basic)
+    [Medium] - (HackerRang/Medium)
