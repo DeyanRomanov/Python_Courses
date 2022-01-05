@@ -11,5 +11,5 @@ Python Basics:
  - [SoftUni OOP](OOP_Softuni)
  - [Certificates SoftUni](Certificate_basics)
  - [HackerRang]
-    [Basic]- (HackerRang/Basic)
-    [Medium] - (HackerRang/Medium)
+    - [Basic](HackerRang/Basic)
+    - [Medium](HackerRang/Medium)
