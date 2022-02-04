@@ -1,50 +1,8 @@
-class Multiset:
-    def __init__(self):
-        self.values = []
-        self.result = []
+numbers_of_elements, number_of_rows = map(int, input().split())
+my_lists = [0] * numbers_of_elements
+for _ in range(number_of_rows):
+    start_index, end_index, number = map(int, input().split())
+    for x in range(start_index - 1, end_index):
+        my_lists[x] += number
 
-    def add(self, val):
-        self.values.append(val)
-
-    def remove(self, val):
-        if val in self.values:
-            self.values.remove(val)
-            return
-        return
-
-    def query(self, val):
-        return self.__contains__(val)
-
-    def size(self):
-        return self.__len__()
-
-    def __contains__(self, val):
-        if val in self.values:
-            self.result.append(True)
-            return True
-        self.result.append(False)
-        return False
-
-    def __len__(self):
-        self.result.append(len(self.values))
-        return len(self.values)
-
-
-test = Multiset()
-for x in range(int(input())):
-    operations = input().split()
-    if len(operations) == 1:
-        a = operations[0]
-        if a == 'size':
-            test.size()
-    else:
-        operation = operations[0]
-        value = int(operations[1])
-        if operation == 'add':
-            test.add(value)
-        elif operation == 'remove':
-            test.remove(value)
-        elif operation == 'query':
-            test.query(value)
-
-print([x for x in test.result])
+print(max(my_lists))
