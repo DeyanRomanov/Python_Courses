@@ -1,1 +1,0 @@
-d = {print(f"{k} -> {v}") for k, v in {countries: capitals for countries, capitals in zip(input().split(', '), input().split(', '))}.items()}
