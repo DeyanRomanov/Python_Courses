@@ -1,0 +1,1 @@
+print(''.join([letter for letter in input() if letter.lower() not in 'aouei']))
