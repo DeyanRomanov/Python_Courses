@@ -1,7 +1,7 @@
 # Python_Courses
 My courses with Python at SoftUni: homeworks, exams, projects, exercises.
 
-Python Basics:
+Python:
  - [SoftUni Basic](Basic_SoftUni)
  - [SoftUni Fundamentals](Fundamentals_SoftUni)
  - [SoftUni Advanced](Advanced_Softuni)
